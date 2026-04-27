@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Paiement</title>
+
+<style>
+body {
+    background-color: lightgray;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+fieldset {
+    border: 5px solid green;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-family: Verdana;
+    font-size: 25px;
+}
+
+input {
+    height: 30px;
+    font-size: 20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>Paiement en ligne</h1>
+
+<form action="confirmer.html" method="post">
+
+<fieldset>
+<legend>Paiement</legend>
+
+Nom et Prénom :
+<input type="text" size="30" required><br><br>
+
+Votre Email :
+<input type="email"><br><br>
+
+Numero de carte :
+<input type="text" size="15"><br><br>
+
+Code secret :
+<input type="password" size="20"><br><br>
+
+Date expiration carte :
+<select>
+    <option>Selectionner une date</option>
+    <option>JANVIER 2023</option>
+    <option>JANVIER 2024</option>
+    <option>JANVIER 2025</option>
+    <option>JANVIER 2026</option>
+    <option>JANVIER 2027</option>
+</select>
+
+<br><br>
+
+<input type="submit" value="Payer">
+<input type="reset" value="Annuler">
+
+</fieldset>
+
+</form>
+
+</body>
+</html>
