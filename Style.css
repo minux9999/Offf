@@ -1,0 +1,50 @@
+/* الصفحة */
+body {
+    background-color: lightgray; /* حسب اختيارك */
+    font-size: 20px;
+}
+
+/* العنوان H1 */
+h1 {
+    text-align: center;
+    color: white; /* حسب اختيارك */
+    background-color: darkblue; /* حسب اختيارك */
+    margin: 20px;
+    width: 65%;
+}
+
+/* الفقرة */
+p {
+    color: green; /* حسب اختيارك */
+    font-family: cursive;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* الفورم (الإطار) */
+fieldset {
+    border: 5px solid green;
+    margin-bottom: 15px;
+}
+
+/* العنوان داخل الفورم */
+legend {
+    font-family: Verdana;
+    font-size: 25px;
+}
+
+/* الحقول */
+input {
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+/* الصورة */
+img {
+    display: block;
+    margin: auto;
+    border: 5px dotted red;
+    border-radius: 10px;
+}
